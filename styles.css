@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: linear-gradient(90deg,#e4c678 0,#f2e5c2 50%,#e8d199 100%) !important;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.header a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.header button {
+    margin: 0;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: none;
+    background-size: 100% auto;
+} */
+/* .big-div{
+    display: block;
+} */
+
+.first-div{
+    background-image: url("images/axiom.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: start;
+    align-items: end;
+}
+
+.second-div{
+    background-image: url("images/home.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: start;
+    align-items: end;
+
+}
+
+.third-div{
+    background-image: url("images/flight.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+     color: white;
+    display: flex;
+    flex-direction: start;
+    align-items: end;
+
+}
+
+.fourth-div{
+    background-image: url("images/robot.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: start;
+    align-items: end;
+}
+
+.first-div-footer{
+    margin: 150px 60px;
+    padding: 40px;
+    /* max-width: 420px; */
+  
+}
+
+.first-div-footer a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+}
+/* a:hover{
+    text-decoration: none;
+   background-color: white;
+   color: black;
+} */
+
+.learn-more-ax4{
+    height: 60px;
+    padding: 10px 10px;
+    border: 2px solid white;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    /* font-size: 48px;
+    line-height: 48px;
+    max-width: 90%; */
+    margin-left: 0;
+}
+
+h3{
+    /* font-size: 48px;
+    line-height: 48px; */
+    text-transform: uppercase;
+    font-weight: bolder;
+}
